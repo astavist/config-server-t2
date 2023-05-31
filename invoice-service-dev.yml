@@ -1,6 +1,6 @@
 spring:
   application:
-    name: INVOICE-SERVICE
+    name: invoice-service
   data:
     mongodb:
       database: turkcell-invoicedb
