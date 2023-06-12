@@ -9,8 +9,7 @@ spring:
   data:
     mongodb:
       database: invoicedb
-      host: localhost
-      port: 27018
+      uri: mongodb://localhost:27018
   kafka:
     consumer:
       auto-offset-reset: earliest
