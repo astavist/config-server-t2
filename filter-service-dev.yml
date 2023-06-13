@@ -8,9 +8,8 @@ spring:
           jwk-set-uri: http://localhost:8080/realms/RentACarMicroservice/protocol/openid-connect/certs
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: filterdb-t2
+      database: filterdb
+      uri: mongodb://localhost:27017
   kafka:
     consumer:
       auto-offset-reset: earliest
