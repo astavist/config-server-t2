@@ -7,7 +7,7 @@ spring:
         jwt:
           jwk-set-uri: http://localhost:8080/realms/RentACarMicroservice/protocol/openid-connect/certs
   data:
-    mongodb:
+    mongodbInvoice:
       database: invoicedb
       uri: mongodb://localhost:27018
   kafka:
